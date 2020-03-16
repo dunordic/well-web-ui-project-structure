@@ -15,7 +15,7 @@ export default function Salutation({ children, isGreeting = true }) {
         variant="h1"
         ref={focusHeadingRef}
       >
-        {isGreeting ? "Hello" : "GoodBye"} {children}
+        {isGreeting ? "Hello" : "Goodbye"} {children}
       </Typography>
     </div>
   );
